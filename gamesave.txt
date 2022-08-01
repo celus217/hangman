@@ -1,0 +1,15 @@
+---
+:incorrect_guesses: 8
+:secret_word: director
+:incorrect_letters:
+- a
+- u
+:guess_array:
+- _
+- i
+- r
+- e
+- _
+- t
+- o
+- r
