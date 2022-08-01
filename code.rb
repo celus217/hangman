@@ -23,7 +23,7 @@ class GameController
   end
 
   def play
-    puts "Welcome! Input characters to play. See if you can guess the word!"
+    puts "Input characters to play. See if you can guess the word!"
     print_guess
     print_incorrect_guesses
     print_incorrect_letters
