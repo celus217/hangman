@@ -117,6 +117,11 @@ class InitialMenu
   end
 
   def start_game
+    if File.zero?('gamesave.txt')
+      @game = GameController.new
+      @game.play
+      return
+    end
     puts 'Welcome to Hangman. If you want to play a new game, type "new". If you want to play the saved game, type "saved".'
     loop do
       decision = gets.chomp.downcase
